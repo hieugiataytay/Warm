@@ -90,6 +90,16 @@ strong{
 	margin: auto;
 }
 
+.title-sub-section{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.title-sub-section h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+
 /* slick */
 
 
@@ -802,6 +812,59 @@ strong{
 	text-align: center;
 }
 
+/* Opportunities */
+#section-opportunities .title-section{
+	margin-bottom: 40px;
+}
+
+#section-opportunities .opportunity-box-inner{
+	background-color: #e3eada;
+	padding-left: 30px;
+	padding-right: 27px;
+	padding-top: 42px;
+	padding-bottom: 30px;
+
+}
+
+#section-opportunities .opportunity-text .opportunity-date{
+	font-size: 18px;
+	font-style: italic;
+	color: #585858;
+	margin-bottom: 33px;
+	font-weight: bold;
+}
+
+#section-opportunities .opportunity-text .opportunity-title{
+	font-size: 19px;
+	color: #ff6c41;
+	margin-bottom: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#section-opportunities .opportunity-text .opportunity-title-sub{
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 22px;
+	color: #000;
+	line-height: 26px;
+	
+}
+
+#section-opportunities .opportunity-text .opportunity-content{
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 22px;
+	color: #ff6c41;
+	text-transform: uppercase;
+}
+
+#section-opportunities .opportunity-text .opportunity-content-sub{
+	font-size: 19px;
+	margin-bottom: 22px;
+	color: #000;
+	line-height: 26px;
+}
 
 
 /* responsive */
@@ -813,7 +876,7 @@ strong{
 
 @media (min-width: 1400px){
 	.container{
-		max-width: 1260px;
+		max-width: 1309x;
 	}
 
 	#section-project .project-content{
@@ -830,6 +893,7 @@ strong{
 		font-size: 35px;
 		margin-bottom: 15px;
 	}
+
 
 	.title-section {
 		text-align: center;
