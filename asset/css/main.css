@@ -996,5 +996,29 @@ strong{
 		height: auto;
 	}
 }
+/* Long Css */
 
-
+.text-uppercase{
+	text-transform: uppercase;
+}
+.title-text-banner{
+	font-size: 44px;
+}
+.text-banner-facility{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+.banner-facility{
+	background-repeat: no-repeat;
+	background-position: center;
+    min-height: 623px;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+	background-image: url(../img/Background_facility.png);
+}
+.banner-facility-overlay{
+	background-color: rgba(124,126, 0, 0.51);
+	height: 100%;
+}
