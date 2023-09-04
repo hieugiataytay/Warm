@@ -126,4 +126,23 @@ $(document).ready(function() {
 });
 
 
-  
+$(document).ready(function() {
+  const divs = $(".opportunity-box"); // Chọn tất cả các thẻ div
+  const loadMoreBtn = $("#loadMoreBtn");
+  const itemsPerPage = 3; // Số thẻ div hiển thị trên mỗi lần nhấn "Load More"
+  let currentIndex = 3; // Vị trí bắt đầu
+
+  // Ẩn các thẻ div ban đầu nếu có nhiều hơn số lượng hiển thị trên mỗi lần
+  divs.slice(itemsPerPage).hide();
+
+  loadMoreBtn.click(function() {
+      // Hiển thị thêm số thẻ div tương ứng với itemsPerPage với hiệu ứng fadeIn
+      divs.slice(currentIndex, currentIndex + itemsPerPage).fadeIn();
+      currentIndex += itemsPerPage;
+
+      // Ẩn nút "Load More" nếu đã hiển thị hết tất cả các thẻ div
+      if (currentIndex >= divs.length) {
+          loadMoreBtn.hide();
+      }
+  });
+});
