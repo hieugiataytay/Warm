@@ -1028,6 +1028,74 @@ strong{
 }
 
 
+/* Warm facility page */
+.facility-background .facility-background-inner{
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	min-height: 422px;
+}
+
+.facility-background .facility-background{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -2;
+}
+
+.facility-background .facility-background img{
+	width: 100%;
+	height: 100%;
+}
+
+.facility-background .facility-overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 50%;
+	background-color: rgb(85,104,46,0.7);
+	z-index: -1;
+}
+
+.facility-background .facility-overlay-right{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 95%;
+	right: 0;
+	background-color: rgb(85,104,46,0.7);
+	z-index: -1;
+}
+
+
+.facility-background .facility-background-inner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.facility-background .facility-background-inner .container{
+	padding-left: 140px;
+    padding-right: 140px;
+}
+
+.facility-background .facility-background-title{
+	font-size: 44px;
+	color: #fff;
+}
+
+.facility-background .facility-background-content{
+	color: #fff;
+	line-height: 27px;
+	font-size: 19px;
+}
+
+
+
 
 /* responsive */
 @media (max-width: 769px){
