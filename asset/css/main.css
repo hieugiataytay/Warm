@@ -1328,6 +1328,19 @@ strong{
 	}
 }
 
+@media (max-width: 1441px){
+
+	#facility-project-box .project-box-item-inner {
+		padding-top: 50px;
+		padding-left: 45px;
+		padding-right: 16px;
+		min-height: 600px;
+	}
+
+	
+
+}
+
 
 @media (max-width: 769px){
 	/* chung */
@@ -1475,6 +1488,17 @@ strong{
 
 	#section-footer .footer-box-right{
 		margin-top: 25px;
+	}
+
+	/* Warm facility */
+	.facility-background .facility-overlay-right{
+		left: 50%;
+		right: 0;
+	}
+
+	/* Warm team */
+	#section-team .container{
+		padding: 0px 15px;
 	}
 }
 
