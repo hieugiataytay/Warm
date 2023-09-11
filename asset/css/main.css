@@ -1712,6 +1712,10 @@ strong{
 
 
 	/* footer */
+	.tel-footer{
+		font-size: 16px
+	}
+
 	#section-footer .footer-box{
 		position: relative;
 		padding-top: 100px;
