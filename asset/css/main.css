@@ -345,6 +345,7 @@ strong{
 	margin-right: 35px;
 }
 
+
 /* Facility */
 #section-facility .facility-content-background{
 	background-repeat: no-repeat;
@@ -673,6 +674,25 @@ strong{
 
 }
 
+.footer-logo{
+	margin-bottom: 24px;
+}
+
+.footer-logo .logo-home-img{
+	width: 83px;
+    height: auto;
+	margin: auto;
+	margin-right: 0;
+}
+
+.footer-logo .logo-home-img img{
+	width: 100%;
+}
+
+.footer-logo{
+	display: flex;
+}
+
 /* --About us */
 .section-logo-header .home-banner{
 	border-left: 10px solid #fff !important;
@@ -682,12 +702,16 @@ strong{
 
 }
 
+.row-project-accordior-box{
+	justify-content: center;
+}
+
 #section-facility.section-facility-content .text-facility-content{
 	font-size: 20px;
 }
 
 #section-facility.section-facility-content .facility-content .facility-content-left{
-	padding-right: 106px;
+	padding-right: 40px;
 }
 
 #section-facility.section-facility-content iframe{
@@ -770,7 +794,7 @@ strong{
 }
 
 #section-project-page .project-accordior-detail .project-detail-left{
-	width: 25%;
+	width: 28%;
 }
 
 #section-project-page .project-accordior-detail .project-detail-right{
@@ -810,6 +834,8 @@ strong{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
 }
 
 /* Opportunities */
@@ -1031,6 +1057,10 @@ strong{
 /* Warm facility page */
 #section-facility-main{
 	margin-bottom: 75px;
+}
+
+.facility-background-box{
+	padding-right: 85px
 }
 
 .facility-background .facility-background-inner{
@@ -1299,6 +1329,10 @@ strong{
 	padding-right: 0;
 }
 
+.project-box-item1{
+	padding-left: 0;
+}
+
 .project-box-group .row{
 	width: 100%;
 	margin: 0;
@@ -1343,6 +1377,16 @@ strong{
 
 
 @media (max-width: 769px){
+	/* header */
+	#section-home-banner .logo-warm {
+		position: absolute;
+		right: 12%;
+		top: 35px;
+	}
+
+	#section-home-banner .logo-warm img{
+		width: 139px;
+	}
 	/* chung */
 
 	.title-section h1{
@@ -1401,7 +1445,8 @@ strong{
 	}
 
 	#section-facility .facility-content-right iframe {
-		height: 400px;
+		height: auto;
+		min-height: auto;
 	}
 	
 	#section-facility .facility-content{
@@ -1417,6 +1462,10 @@ strong{
 		font-size: 20px;
 		margin-top: 20px;
 		margin-bottom: 20px;
+	}
+
+	.facility-background-box{
+		padding-right: 0
 	}
 
 	/* our project */
@@ -1496,14 +1545,94 @@ strong{
 		right: 0;
 	}
 
+	#section-facility-description .description-content-left{
+		margin-bottom: 20px;
+	}
+
+	#facility-project-box .title-sub-box {
+		max-width: 711px;
+
+	}
+
+	.project-box-item{
+		padding-right: 12px;
+	}
+
+	#facility-project-box .project-box-item4{
+		padding-right: 12px;
+	}
+
+	.facility-impact-left-background{
+		padding-right: 0;
+	}
+
+	#section-facility-impact .facility-impact-right{
+		padding-left: 12px !important;
+	}
+
 	/* Warm team */
 	#section-team .container{
 		padding: 0px 15px;
 	}
+
+	/* About us */
+	#section-facility.section-facility-content .facility-content .facility-content-left{
+		padding-right: 0;
+	}
+	
+	#section-our-partner .list-partner{
+		justify-content: space-between;
+	}
+
+	#section-project-page .project-accordior-detail{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
+	#section-our-partner .list-partner .partner-logo{
+		width: 67px;
+	}
+
+	#section-our-partner .list-partner .partner-item .partner-name {
+		font-size: 7px;
+		margin-top: 7px;
+	}
+
+	#section-keydate .keydate-right{
+		padding-left: 0;
+	}
+
+	#section-project-page .project-accordior{
+		flex-direction: column;
+	}
+
+	/* Warm team */
+	#section-team-background .team-background-inner .container{
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	/* about us */
+	#section-our-partner .list-partner .partner-item2 .partner-logo{
+		width: 61px;
+	}
+
 }
 
 
 @media (max-width: 426px){
+	/* header */
+	#section-home-banner .logo-warm {
+		position: absolute;
+		right: 3% !important;
+		top: 35px;
+	}
+
+	#section-home-banner .logo-warm img{
+		width: 139px;
+	}
 	/* chung */
 	.title-section h1 {
 		font-size: 32px;
@@ -1526,30 +1655,162 @@ strong{
 	#section-home-banner .banner-home-slide .banner-img{
 		height: auto;
 	}
-}
-/* Long Css */
 
-.text-uppercase{
-	text-transform: uppercase;
+	#section-our-partner .list-partner{
+		flex-wrap: wrap;
+	}
+
+	#section-our-partner .list-partner .partner-item{
+		width: auto;
+		margin-bottom: 10px;
+	}
+
+	#section-our-partner .list-partner{
+		justify-content: space-between;
+	}
+
+	/* about us */
+	#section-project-page .project-accordior{
+		flex-direction: column;
+	}
+
+	#section-project-page .project-accordior-image{
+		min-height: auto;
+	}
+
+	#section-project-page {
+		margin-bottom: 495px;
+	}
+
+	#section-our-partner .list-partner .partner-item {
+		width: 33%;
+	}
+
+	#section-project-page .project-accordior-detail .project-detail-right p{
+		font-size: 17px
+	}
+
+	#section-project-page .project-accordior-detail .project-detail-left strong {
+		font-size: 14px
+	}
+
+	#section-keydate .keydate-right{
+		text-align: center;
+	}
+
+	#section-project-page .project-nav{
+		flex-direction: row !important;
+		padding-bottom: 10px
+	}
+
+	#section-project-page .project-accordior .nav-link{
+		width: 50%;
+		font-size: 17px;
+		text-align: center;
+		padding-left: 16px;
+	}
+
+
+	/* footer */
+	#section-footer .footer-box{
+		position: relative;
+		padding-top: 100px;
+
+	}
+
+	.footer-logo{
+		position: absolute;
+		top: 9px;
+		right:0;
+		left: 0;
+		justify-content: center;
+	}
+
+	.footer-logo .logo-home-img{
+		margin: auto 8px;
+	}
+
+	.footer-box-left{
+		margin-bottom: 17px
+	}
+
+	#section-footer .footer-box .title-footer{
+		margin-bottom: 0;
+	}
+
+	#section-footer .footer-box .title-footer p {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	#section-footer .footer-box .address-footer p {
+		font-size: 15px;
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+
+	/* facility */
+	#facility-project-box .project-box-item .project-box-item-title{
+		margin-bottom: 0;
+	}
+
+	#facility-project-box .project-box-item .project-box-item-content{
+		font-size: 15px;
+	}
+
+	#facility-project-box .project-box-item .project-box-item-title p{
+		font-size: 19px;
+	}
+
+	#facility-project-box .title-sub-box{
+		font-size: 23px;
+	}
+
+	#facility-project-box .project-box-item-inner{
+		min-height: 373px;
+		padding-top: 30px;
+	}
+
+	.project-box-item{
+		padding-left: 12px;
+	}
+	
+	/* oppo */
+	.button-loadmore button {
+		font-size: 17px;
+		padding: 10px 16px;
+		border-radius: 5px;
+	}
+
+	.opportunity-button a img {
+		width: 42px;
+	}
+
+	#section-opportunities .opportunity-text .opportunity-title-sub{
+		margin-bottom: 0;
+	}
+
+	#section-opportunities .opportunity-text .opportunity-title{
+		margin-bottom: 8px;
+	}
+	#section-opportunities .opportunity-text .opportunity-content{
+		margin-bottom: 8px;
+	}
+
+	.button-loadmore {
+		text-align: center;
+		margin-bottom: 32px;
+	}
+
+	/* warm team */
+	#section-team .team-box {
+		font-size: 17px;
+		line-height: 34px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+	
+	}
+	
+
 }
-.title-text-banner{
-	font-size: 44px;
-}
-.text-banner-facility{
-	display: flex;
-	flex-direction: column;
-	gap: 50px;
-}
-.banner-facility{
-	background-repeat: no-repeat;
-	background-position: center;
-    min-height: 623px;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-	background-image: url(../img/Background_facility.png);
-}
-.banner-facility-overlay{
-	background-color: rgba(124,126, 0, 0.51);
-	height: 100%;
-}
+
